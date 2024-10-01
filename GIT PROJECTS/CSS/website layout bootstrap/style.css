@@ -1,0 +1,92 @@
+
+
+body{
+    background-image: url("https://www.hdwallpapers.in/thumbs/2021/green_white_candle_light_dark_background_hd_background-t2.jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: double;
+    font-size: 15px;
+    color: white;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+p{
+    color: wheat;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+#data{
+    text-align: center;
+    margin-top: 200px;
+    width: 800px;
+  
+}
+
+button{
+    /* padding: 8px 12px 8px 12px; */
+    margin-right: 20px;
+    height: 50px;
+    width: 180px;
+    transition: font-size 0.4s, height 0.4s, width 0.4s, border 0.4s;
+}
+
+button:hover{
+    font-size: 18px;
+    height: 55px;
+    width: 185px;
+    border: 25px rgb(255, 2, 2);
+  }
+
+#b1{
+    background: none;
+    border: 3px solid white;
+    color: white;
+}
+
+#b2{
+    color: white;
+    background-color: rgb(98, 60, 233);
+    border: 3px solid rgb(98, 60, 233);
+}
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+li{
+    list-style-type: none;
+}
+
+a:hover{
+    color: blueviolet;  
+    font-size: 18px;
+}
+
+h3:hover{
+    font-size: 35px;
+}
+
+h3{
+    transition: font-size 0.4s;
+  
+}
+
+#mh1{
+    transition: font-weight 0.5s;
+}
+
+#mh1:hover{
+    font-weight: 330;
+}
+

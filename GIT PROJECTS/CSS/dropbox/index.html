@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>💾 Dropbox Clone </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- main container  -->
+    <nav class="container-fluid d-flexbox">
+    <!-- new navbar  -->
+    
+    <ul class="nav fixed-top navbar-expand-lg bg-body-tertiary p-3 justify-content-between">
+      <li class="nav-item">
+        <a class="navbar-brand  display-flex " href="/" title="Dropbox" data-uxa-log="unav_logo">
+
+          <span class="bg-primary d-inline-block p-1">
+              <svg width="30" class="dropbox-logo" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.70076 0.320312L0.478516 4.91332L7.70076 9.50633L14.9242 4.91332L22.1465 9.50633L29.3687 4.91332L22.1465 0.320312L14.9242 4.91332L7.70076 0.320312Z" fill="#F7F5F2">
+              </path>
+                  <path d="M7.70076 18.6925L0.478516 14.0994L7.70076 9.50633L14.9242 14.0994L7.70076 18.6925Z" fill="#F7F5F2"></path><path d="M14.9242 14.0994L22.1465 9.50633L29.3687 14.0994L22.1465 18.6925L14.9242 14.0994Z" fill="#F7F5F2"></path>
+                  <path d="M14.9242 24.8164L7.70077 20.2234L14.9242 15.6304L22.1465 20.2234L14.9242 24.8164Z" fill="#F7F5F2"></path></svg>
+              </span>
+              
+                  <span class="fw-bold fs-4">Dropbox</span>
+              </a>
+      
+      </li>
+
+     
+     
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          
+
+          
+           
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+         <div class="dropdown-menu w-100 ps-5">
+          <div class="container-fluid ps-4">
+
+             <div class="row dropdown-product-solutions d-flex ps-5">
+
+
+              <div class="col ps-5 m-0 d-inline-flex"> 
+
+                 <ul class="list-group">
+                <li class="list-group-item d-flex">
+                  <a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/Dropbox-logo-nav.svg?id=d587e174-e284-42e8-a18c-85c0d8e57e9e" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Dropbox </span>
+                  <p class="data-dropdown">Store, Share and access files across devices</p>
+                </div>
+                </li>
+
+                <li class="list-group-item d-flex "><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Replay </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+
+                <li class="list-group-item d-flex"><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Backup </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+
+                <li class="list-group-item d-flex"><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Capture </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+              
+              </ul>
+               
+              <ul class="list-group">
+                <li class="list-group-item d-flex">
+                  <a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/Dropbox-logo-nav.svg?id=d587e174-e284-42e8-a18c-85c0d8e57e9e" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Dash (beta) </span>
+                  <p class="data-dropdown">Store, Share and access files across devices</p>
+                </div>
+                </li>
+
+                <li class="list-group-item d-flex"><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> DocSend </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+
+                <li class="list-group-item d-flex "><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Sign </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+
+                <li class="list-group-item d-flex"><a href=""><img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/dash-logo-nav.svg?id=0eaff5fa-ffc5-41dd-bba1-4f05c5e32205" alt=""></a>
+                  
+                  <div class="text-start list-data">
+                  <span class="header-dropdown"> Early access </span>
+                  <p class=" data-dropdown">Store, Share and access files across devices</p>
+                </div>                            
+                </li>
+              
+              </ul>
+
+
+              </div>
+         
+          </div>
+
+         </div>
+        </li>
+       
+      
+        <li class="nav-item dropdown position-static ">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solution
+          </a>
+         <div class="dropdown-menu ps-5">
+          <div class="container-fluid ps-5">
+
+             <div class="row dropdown-product-solutions d-flex ps-5">
+
+
+              <div class="col  ps-5 m-0 d-flex "> 
+
+                 <ul class="ms-5 me-5 ps-5 pe-5">
+                  <li>Teams</li>
+                  <li>Sales</li>
+                  <li>Marketing</li>
+                  <li>HR</li>
+                  <li>IT</li>
+                  <li>Creative</li>
+                  <li></li>
+                 </ul>
+
+                 <ul class="ms-5 me-5 ps-5 pe-5">
+                  <li>Use cases</li>
+                  <li>Storage</li>
+                  <li>Video Review</li>
+                  <li>Signing Documents</li>
+                  <li>Sending Files</li>
+                  <li></li>
+                 </ul>
+
+                 <ul class="ms-5 me-5 ps-5 ">
+                  <li>Industries</li>
+                  <li>Construction</li>
+                  <li>Technology</li>
+                  <li>Manufacturing</li>
+                  <li>Media</li>
+                  <li>Professional Services</li>
+                  <li>Education</li>
+                 </ul>
+
+
+              </div>
+         
+          </div>
+
+         </div>
+        </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Enterprises</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+      </li>
+       
+    </div>
+
+      <!-- right side  -->
+
+      <li class="nav-items earth-bar">
+        <a class="nav-link"  aria-current="page" class="" href="#"> 
+          <span class="lazy-icon--standard box display--inline-block color--standard"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M11.75 4C6.535 4 4 6.535 4 11.75s2.535 7.75 7.75 7.75 7.75-2.535 7.75-7.75S16.965 4 11.75 4Zm5.714 4.5H14.87a9.237 9.237 0 0 0-.623-2.711A4.454 4.454 0 0 1 17.463 8.5ZM18 11.75c.002.586-.042 1.171-.133 1.75H14.97c.022-.579.03-1.167.03-1.75s-.008-1.171-.03-1.75h2.897c.09.579.135 1.164.133 1.75ZM11.75 18c-.616 0-1.3-.41-1.598-3h3.196c-.298 2.59-.982 3-1.598 3Zm-1.712-4.5c-.024-.524-.038-1.1-.038-1.75 0-.65.014-1.226.038-1.75h3.424c.024.524.038 1.1.038 1.75 0 .65-.014 1.226-.038 1.75h-3.424ZM5.5 11.75c-.002-.586.042-1.171.133-1.75H8.53c-.022.579-.03 1.167-.03 1.75s.008 1.171.03 1.75H5.633a11.074 11.074 0 0 1-.133-1.75Zm6.25-6.25c.616 0 1.3.41 1.598 3h-3.196c.298-2.59.982-3 1.598-3Zm-2.497.289A9.236 9.236 0 0 0 8.63 8.5H6.036a4.454 4.454 0 0 1 3.217-2.711ZM6.036 15H8.63c.07.93.28 1.844.623 2.711A4.453 4.453 0 0 1 6.037 15Zm8.21 2.711A9.237 9.237 0 0 0 14.87 15h2.594a4.454 4.454 0 0 1-3.217 2.711Z" fill="currentColor" vector-effect="non-scaling-stroke"></path>
+          </svg>
+          </span>
+        </a>
+      </li>
+        
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+
+      <li class="nav-items">
+        <a class="nav-link text-nowrap p-2 " href="#">Contact Sales</a>
+      </li>
+
+      <li class="nav-items dropdown position-static  px-2">
+        <a class="nav-link dropdown-toggle text-nowrap p-2 pe-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Get app
+        </a>
+       <div class="dropdown-menu w-100">
+        <div class="container-fluid">
+
+           <div class="row dropdown-product-app d-flex">
+
+
+            <div class="col d-flex "> 
+         
+                <ul class="get-app-list">
+                  <li class="py-3">Mobile App</li>
+                  <li>Desktop App</li>
+                </ul>
+
+            </div>
+       
+        </div>
+
+       </div>
+      </li>
+
+    </div>
+
+    
+      <li class="nav-items">
+        <a class="nav-link text-nowrap p-2" href="#">Sign up</a>
+      </li>
+
+      <li class="nav-items">
+        <a class="nav-link text-nowrap p-2" href="#">Log in</a>
+      </li>
+
+      
+      <button type="button" class="btn bg-primary  d-none d-md-block text-white rounded-3 fw-bold text-nowrap"> Get Started</button>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+        <span class="navbar-toggler-icon"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" role="presentation" focusable="false"><path d="M18.5 16.5h-13V18h13v-1.5Zm0-5.5h-13v1.5h13V11Zm0-5.5h-13V7h13V5.5Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg></span>
+     </button>
+     
+    </ul>
+
+
+
+    
+  </nav>
+
+
+
+
+
+
+    <!-- main content start  -->
+
+    <main class="container-fluid main-content mt-sm-5 pt-sm-5 pt-md-2 text-white">
+
+        <div class="container-fluid container1 d-flex m-auto pt-sm-5 mt-sm-5 mt-md-0 pb-5">
+            <div class="container1-data1 text-center m-auto ">
+                <h2 class="hero">Join over 700 million registered users who trust Dropbox</h2>
+                <div>Easy to use, reliable, private, and secure. It’s no wonder Dropbox is the choice for storing and sharing your most important files.</div>
+
+                <button class="button2 btn text-black bg-primary my-4   fw-medium px-4 py-4 rounded-4">
+                  <span class="button-first">Find your plan
+                  </span>
+                  <span class="right-direction-arrow ms-3 pe-3">
+                    <svg  viewBox="0 0 24 24" fill="none" class="" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span>
+                </button>
+
+                <div class="container1-data2 d-flex">
+                  <form class="d-flex m-auto pe-auto flex-wrap justify-content-center" action="">
+                      <div class="formdata text-wrap col-sm-12 col-md-6 ">
+                          <input class="bg-transparent text-white border rounded-3  pe-5 py-2 col-sm-12 col-md-12" type="text" size="25" placeholder="Enter your email address">
+                      </div>
+                      <span class="formdata col-sm-12 col-md-6">
+                          <button class="fw-medium text-white bg-transparent border rounded-3 border-3 py-2 px-3 col-sm-12 col-md-10" type="button">
+                              Sign up for free
+                          </button>
+                        </span>
+                  </form>
+              </div>
+            </div>
+
+           
+        </div>
+
+        <div class="videofile m-auto">
+            <div class="videobody d-flex justify-content-center">
+              <video class="videodata" aria-hidden="false" aria-label="" autoplay="" playsinline="" loop="" muted=""><source src="" type="video/quicktime; codecs=hvc1"><source src="" type="video/webm; codecs=vp9"><source src="https://aem.dropbox.com/cms/content/dam/dropbox/warp/en-us/dropbox/dbx1-hero-1920x1080.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+
+        
+
+      <div class="container2 text-center text-white m-auto d-flexbox">
+        <div><h3 class="containt-box-heading my-5">What can you do with Dropbox?</h3></div>
+
+        <div class="content-table d-flex justify-content-center">
+
+          
+       
+
+
+      <div class="content-details d-flexbox row">
+         
+        
+       
+        <div class="data-table item-1 col-lg-3 col-md-6">
+          <div class="icon"> <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/ProtectFilesDark.svg?id=522e2ebf-a0ca-4b4b-9c0b-e399442719de" alt=""></div>
+          <div class="data"> 
+            <h3 class="box-heading"> Store and protect your files </h3>
+            <p class="box-data"> Get the storage you and your teams need with security features like file recovery, password protection, watermarking, and viewer history.</p>
+          </div>
+        </div>
+        
+        <div class="data-table item-2 col-lg-3 col-md-6">
+          <div class="icon"> <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/SharedContentDark.svg?id=f718921a-2979-4312-b5ad-e40509c5efc2" alt=""></div>
+          <div class="data"> 
+            <h3 class="box-heading"> Stay in control of shared content </h3>
+            <p class="box-data"> Trackable links show when someone has opened a shared file and how long they’ve engaged with it. Plus, you can turn off access for any individual at any time without affecting others’ permissions.</p>
+          </div>
+        </div>
+
+
+        <div class="data-table item-3 col-lg-3 col-md-6">
+          <div class="icon"> <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/CollaborateDark.svg?id=d6f1841b-b694-417d-9d20-877aad41b4d9" alt=""></div>
+          <div class="data"> 
+            <h3 class="box-heading"> Collaborate on your work </h3>
+            <p class="box-data"> Directly edit PDFs and use video tools to streamline feedback and approval processes.</p>
+          </div>
+        </div>
+
+
+        <div class="data-table item-4 col-lg-3 col-md-6">
+          <div class="icon"> <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/ManageBusinessDark.svg?id=2008b1f6-a8b4-4303-aeb9-4c2c4bf78484" alt=""></div>
+          <div class="data"> 
+            <h3 class="box-heading"> Manage your business </h3>
+            <p class="box-data"> Automate manual processes with tools like eSignature templates, which let you reuse documents in seconds.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="mid-btn mt-5  w-75 m-auto">
+      <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dash/Newbetachip.svg?id=a1e675f4-8266-43ca-bb51-3b138d145ce3" alt="new-beta">
+      <h2 class="containt-box-heading my-3">Shortcut your workday with Dropbox Dash</h2>
+      <div class=" w-75 m-auto fw-medium">Quickly find, organize, and share important content all in one place with the AI universal search tool built to save you time, so you can focus on the work that matters most.</div>
+ 
+  </div>
+
+  <div class="mid-data-button">
+      
+      <form action="">
+          <div class="button2">
+              <button class="btn text-black bg-primary my-4 fw-medium px-4 py-4 rounded-4" type="button">
+                  Get Dash beta free  <span class="px-5  right-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" class="right-direction-arrow" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span>
+              </button>
+          </div>
+      </form>
+  </div>
+
+
+<div class="mid-image py-5 col-11 col-sm-8 col-lg-6 -col-xl-4 m-auto">
+  <img class="image-data w-100" src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/dash-updated-start-page-ui-2048x1280.png?id=335c33a5-7ced-4165-9d62-79b037b94e01&output_type=png" alt="">
+</div>
+    
+<h2 class="sub-hero py-5">How will you use Dropbox?</h2>
+
+<div class="row card-box">
+  <div class="col image-card-box">
+    <div class="image-card-head">
+      <img class="image-card" src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/teams-ui-1272x424.jpg?id=be7c9ef3-bc5a-424c-8892-02c70f18657b&width=414&output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/teams-ui-1272x424.jpg?id=be7c9ef3-bc5a-424c-8892-02c70f18657b&width=828&output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/teams-ui-1272x424.jpg?id=be7c9ef3-bc5a-424c-8892-02c70f18657b&width=1024&output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/teams-ui-1272x424.jpg?id=be7c9ef3-bc5a-424c-8892-02c70f18657b&output_type=jpg" alt=""> 
+    </div>
+    <div class="image-data px-5 w-100">
+
+      <h4 class="sub-hero text-start py-4">For work</h4>
+      <p class="text-start  w-100">Work efficiently with teammates and clients, stay in sync on projects, and keep company data safe—all in one place.</p>
+      <div class="button2  text-start">
+        <button class="btn text-black bg-primary my-4 fw-medium px-3 py-3 rounded-4 text-nowrap" type="button">
+            Get Dropbox for work  <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="right-direction-arrow" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span>
+        </button>
+    </div>
+    </div>
+  </div>
+
+  <div class=" col image-card-box">
+    <div class="image-card-head">
+      <img class="image-card" src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/professionals-ui-1272x424.jpg?id=5292c821-d047-4218-a4e1-72b01148e8ce&width=414&output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/professionals-ui-1272x424.jpg?id=5292c821-d047-4218-a4e1-72b01148e8ce&width=828&output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/professionals-ui-1272x424.jpg?id=5292c821-d047-4218-a4e1-72b01148e8ce&width=1024&output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/professionals-ui-1272x424.jpg?id=5292c821-d047-4218-a4e1-72b01148e8ce&output_type=jpg" alt=""> 
+    </div>
+    <div class="image-data px-5 w-100">
+      <h4 class="sub-hero text-start py-4">For personal use</h4>
+      <p class="text-start w-100">Keep everything that’s important to you and your family shareable and safe in one place. Back up files in the cloud, share photos and videos, and more.</p>
+      <div class="button2 text-start">
+        <button class="btn text-nowrap text-black bg-primary my-4 fw-medium px-4 py-3 rounded-4" type="button">
+            Get Dropbox for people use  <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="right-direction-arrow" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span>
+        </button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="sub-hero py-4">Cloud storage you can count on</h2>
+
+  <div class="row storage-count">
+
+    <div class="col text-start">
+      <h2>1B+</h2>
+      <h5>mobile app downloads</h5>
+      <p>with Editors’ Choice Awards from the Google Play and Apple App Store.</p>
+    </div>
+   
+
+    <div class="col text-start">
+      <h2>575k+</h2>
+      <h5>teams globally</h5>
+      <p>use Dropbox to share work, safeguard content, and grow their business.</p>
+    </div>
+
+    <div class="col text-start">
+      <h2>4.5B</h2>
+      <h5>connections and counting</h5>
+      <p>created through Dropbox file sharing.</p>
+    </div>
+
+  </div>
+      </div>
+    
+      <div id="carouselExampleIndicators" class="carousel slide  w-100 bg-dark d-flex">
+        <div class="carousel-indicators m-a">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner m-auto">
+   <!-- first  -->
+          <div class="carousel-item active">
+            <div class="row py-5 ">
+
+            <div class="col carousel1 col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Lockup_McLarenDBX_no-padding.svg?id=b71840c6-a651-428b-81de-cb6f109bfff5" class="bg-white m-auto w-100" alt="...">
+             
+        </div>
+          <div class="col carousel-data col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“It‘s great to have Dropbox on board, helping our high performing team work efficiently and seamlessly.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div>
+   <!-- second  -->
+
+          <div class="carousel-item">
+            <div class="row py-5 ">
+
+            <div class="col carousel2 w-50 h-100 col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&width=828&output_type=webp" class="d-flexbox m-auto w-100 h-100 " alt="...">
+        </div>
+
+
+          <div class="col carousel-data  text-start  d-flexbox col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever photo is inspiring me to post.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div> 
+
+          <!-- 3rd  -->
+
+          <div class="carousel-item">
+            <div class="row py-5 ">
+
+            <div class="col carousel3  d-flexbox position-relative col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&width=828&output_type=webp" class="d-flexbox  w-100" alt="...">
+        </div>
+
+          <div class="col carousel-data  text-start  d-flexbox col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“Dropbox increased our team’s collaboration while working from home, which has increased our flexibility and could revolutionize our office culture.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div>
+           
+          <!-- 4h  -->
+
+          <div class="carousel-item">
+            <div class="row py-5 ">
+
+            <div class="col carousel4  d-flexbox col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&width=828&output_type=webp" class="d-block  w-100" alt="...">
+
+            
+        </div>
+          <div class="col carousel-data text-start  d-flexbox col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“We’re a grass-roots nonprofit. When we use a tool that the rest of the design world uses, it helps professionalize our organization.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div>
+
+          <!-- 5th  -->
+
+          <div class="carousel-item">
+            <div class="row py-5 ">
+
+            <div class="col carousel5  d-flexbox col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&width=828&output_type=webp" class="d-block  w-100" alt="...">
+              
+        </div>
+          <div class="col carousel-data  text-start  d-flexbox col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“Dropbox easily allows me to transfer what’s in my mind to another person.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div>
+
+          <!-- 6th -->
+
+          <div class="carousel-item ">
+            <div class="row py-5  ">
+
+            <div class="col carousel4  d-flexbox position-relative col-sm-12 col-md-12 col-lg-6">
+              <img  src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&width=828&output_type=webp" class="carousel-sixth-img w-100 m-auto" alt="...">
+             
+        </div>
+
+          <div class="col carousel-data  text-start  d-flexbox col-sm-12 col-md-12 col-lg-6">
+            <p class="pt-5">“Creative growth happens when you don’t have to worry about managing storage.”</p>
+           <a href="">Read the full story <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span></a>
+           <h6>Zak Brown</h6>
+           <p>CEO of McLaren Racing</p>
+
+          </div>
+        </div>
+          </div> 
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+
+     
+
+      <div class="last-body text-white  py-5">
+        <div class="row last-body-data py-5">
+          <div class="col text-center align-content-center">
+            <h2 class="fw-bold fs-1">Get started with Dropbox</h2>
+          </div>
+          <div class="col button-2 text-center">
+            <button class="text-nowrap text-black bg-primary my-4 fw-medium px-4 py-3 rounded-4" type="button">
+              View Plan Details  <span class="ps-3"><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg></span>
+          </button>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+    </main>
+  <footer>
+  
+    <div class="container-fluid last-links">
+       <div class="row footer-links">
+        <div class="col-4 col-lg-4 col-xl-2">
+             
+
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Dropbox</li>
+            <li class="list-group-item">Desktop app</li>
+            <li class="list-group-item">Mobile app</li>
+            <li class="list-group-item">Integrations</li>
+            <li class="list-group-item">Features</li>
+            <li class="list-group-item">Solutions</li>
+            <li class="list-group-item">Security</li>
+            <li class="list-group-item">Early access</li>
+            <li class="list-group-item">Templates</li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+
+          </ul>
+      </div>
+
+        <div class="col-4 col-lg-4 col-xl-2">
+
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Products</li>
+            <li class="list-group-item">Plus</li>
+            <li class="list-group-item">Professional</li>
+            <li class="list-group-item">Business</li>
+            <li class="list-group-item">Enterprise</li>
+            <li class="list-group-item">Dash (beta)</li>
+            <li class="list-group-item">Dropbox Sign</li>
+            <li class="list-group-item">DocSend</li>
+            <li class="list-group-item">Plans</li>
+            <li class="list-group-item">Product updates</li>
+            <li class="list-group-item"></li>
+
+          </ul>
+        </div>
+        
+        <div class="col-4 col-lg-4 col-xl-2">
+
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Features</li>
+            <li class="list-group-item">Send large files</li>
+            <li class="list-group-item">Send long videos</li>
+            <li class="list-group-item">Cloud photo storage</li>
+            <li class="list-group-item">Secure file transfer</li>
+            <li class="list-group-item">Password manager</li>
+            <li class="list-group-item">Cloud backup</li>
+            <li class="list-group-item">Edit PDF's</li>
+            <li class="list-group-item">Electronic signatures</li>
+            <li class="list-group-item">Screen recorder</li>
+            <li class="list-group-item">Convert to PD</li>
+          </ul> 
+        </div>
+
+        
+        <div class="col-4 col-lg-4 col-xl-2">
+
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Support</li>
+            <li class="list-group-item"> Help center</li>
+            <li class="list-group-item">Contact us</li>
+            <li class="list-group-item">Cookies policy</li>
+            <li class="list-group-item">Cookies & CCPA preferences</li>
+            <li class="list-group-item">AI principles </li>
+            <li class="list-group-item">Sitemap</li>
+            <li class="list-group-item">Learning resources</li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+          </ul> 
+        </div>
+
+
+        <div class="col-4 col-lg-4 col-xl-2">
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Resourcesi</li>
+            <li class="list-group-item">Blog</li>
+            <li class="list-group-item">Customer stories</li>
+            <li class="list-group-item">Resources library</li>
+            <li class="list-group-item">Developers</li>
+            <li class="list-group-item">Community forums</li>
+            <li class="list-group-item">Referrals</li>
+            <li class="list-group-item">Reseller partners</li>
+            <li class="list-group-item">Integration partners</li>
+            <li class="list-group-item">Find a partner</li>
+            <li class="list-group-item"></li>
+          </ul> 
+
+          </div>
+        <div class="col-4 col-lg-4 col-xl-2">
+
+
+          <ul class="list-group">
+            <li class="list-group-item disabled fw-bold fs-5 mb-3" aria-disabled="true">Company</li>
+            <li class="list-group-item">About us</li>
+            <li class="list-group-item">Jobs</li>
+            <li class="list-group-item">Investor relations</li>
+            <li class="list-group-item">ESG</li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+          </ul> 
+        </div>
+       </div>
+
+       <div class="lastanchors px-5">
+        <div class="achorsic py-5">
+          <a href=""> <span>
+            <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" role="presentation" focusable="false"><path d="M13.485 10.775 19.314 4h-1.381l-5.061 5.883L8.83 4H4.168l6.112 8.896L4.168 20h1.381l5.344-6.212L15.162 20h4.662l-6.339-9.225Zm-1.891 2.199-.62-.886L6.047 5.04h2.121l3.977 5.688.62.886 5.168 7.394h-2.121l-4.218-6.034Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg>
+          </span></a>
+
+          <a href=""><span>
+            <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" role="presentation" focusable="false"><path d="M20 12a8 8 0 0 0-8-8 8.001 8.001 0 0 0-1.25 15.903v-5.59H8.719V12h2.031v-1.762c0-2.005 1.194-3.113 3.022-3.113.875 0 1.79.156 1.79.156V9.25h-1.009c-.994 0-1.303.617-1.303 1.25V12h2.219l-.355 2.313H13.25v5.59A8.001 8.001 0 0 0 20 12Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg>
+          </span></a>
+
+          <a href=""><span>
+            <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" role="presentation" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.148 7.358c.249.248.427.557.519.896.329 1.248.333 3.851.333 3.851s0 2.604-.333 3.852a2.006 2.006 0 0 1-1.415 1.414c-1.247.335-6.252.335-6.252.335s-5.004 0-6.25-.335a2.004 2.004 0 0 1-1.415-1.414C4 14.709 4 12.105 4 12.105s0-2.603.335-3.85a2.003 2.003 0 0 1 1.414-1.42C6.995 6.5 12 6.5 12 6.5s5.004 0 6.252.34c.34.091.648.27.896.518Zm-4.59 4.747-4.158-2.4v4.8l4.158-2.4Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg>
+          </span></a>
+        </div>
+        <div class="language">
+
+          <button class="bg-transparent text-white py-3 " type="button">
+            <span><svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M11.75 4C6.535 4 4 6.535 4 11.75s2.535 7.75 7.75 7.75 7.75-2.535 7.75-7.75S16.965 4 11.75 4Zm5.714 4.5H14.87a9.237 9.237 0 0 0-.623-2.711A4.454 4.454 0 0 1 17.463 8.5ZM18 11.75c.002.586-.042 1.171-.133 1.75H14.97c.022-.579.03-1.167.03-1.75s-.008-1.171-.03-1.75h2.897c.09.579.135 1.164.133 1.75ZM11.75 18c-.616 0-1.3-.41-1.598-3h3.196c-.298 2.59-.982 3-1.598 3Zm-1.712-4.5c-.024-.524-.038-1.1-.038-1.75 0-.65.014-1.226.038-1.75h3.424c.024.524.038 1.1.038 1.75 0 .65-.014 1.226-.038 1.75h-3.424ZM5.5 11.75c-.002-.586.042-1.171.133-1.75H8.53c-.022.579-.03 1.167-.03 1.75s.008 1.171.03 1.75H5.633a11.074 11.074 0 0 1-.133-1.75Zm6.25-6.25c.616 0 1.3.41 1.598 3h-3.196c.298-2.59.982-3 1.598-3Zm-2.497.289A9.236 9.236 0 0 0 8.63 8.5H6.036a4.454 4.454 0 0 1 3.217-2.711ZM6.036 15H8.63c.07.93.28 1.844.623 2.711A4.453 4.453 0 0 1 6.037 15Zm8.21 2.711A9.237 9.237 0 0 0 14.87 15h2.594a4.454 4.454 0 0 1-3.217 2.711Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg></span> 
+            <span>  English (United States)</span>
+
+            <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="m9.25 5.75 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg>
+
+          </button>
+        </div>
+       </div>
+
+
+    </div>
+
+  </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

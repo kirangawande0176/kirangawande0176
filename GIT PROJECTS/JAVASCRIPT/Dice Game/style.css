@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#main{
+    padding-top: 5%;
+    height: 27lh;
+    background-image: url(./images/background-image-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+#heading{
+    color: rgb(208, 255, 0);
+    font-weight: 800;
+    font-size: 55px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.836);
+}
+
+#startBtn button:hover{
+    background-color: rgb(45, 45, 192);
+}
+
+#maincontainer{
+   background-image: url(./images/wooden-table.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#rollingDices{
+    background-image: url(./images/wooden-table2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#Money{
+    display: none;
+}
+
+#inputBet{
+    display: none;
+}
+
+#betSelectbtns{
+    display: none;
+}
+
+#rollingDices{
+    display: none;
+}
+
+#startagianBtn{
+    display: none;
+}
+
+#diceSum{
+    display: none;
+}

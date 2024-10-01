@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/blurred-park-vibrant-green-natural-background_93675-130257.jpg?w=826&t=st=1718192154~exp=1718192754~hmac=d02c6a4a9bf4b6787a625b62213ee37cf7f83edc115a2ace03dc7abed89fb1ba");
+    
+    background-size: 120%;
+    background-repeat: no-repeat;
+    
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    float: right;
+    gap: 25px;
+    
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navic{
+    font-size: 30px;
+}
+h1{
+    font-size: 130px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    padding-top: 35px;
+    padding-bottom: 25px;
+
+}
+
+#searchbar{
+    border: 3px solid black;
+    height: 45px;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+span{
+      font-size: 20px;
+      padding: 5px;
+}
+
+#div2{
+    
+    display: flex ;
+    justify-content: end;
+    margin: auto;
+    float: right;
+    padding-left: 630px;
+}
+
+button{
+    padding: 5px 10px 5px 10px;
+    align-self: center;
+    margin:10px;
+    font-size: 20px;
+}
+
+#buttons{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 1px;
+}
+
+#lang{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+p{
+    font-size: 20px;
+    padding-right: 10px;
+}

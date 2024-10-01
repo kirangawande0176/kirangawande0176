@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+#navbar{
+    border: 1px solid black;
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+#navl{
+    
+    padding: 1%;
+
+}
+
+#navr{ 
+        padding: 1%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.navlist1{
+    color: white;
+    text-decoration: none;
+    
+    padding-left: 23px;
+    
+}
+
+.navicon{
+    
+    text-decoration: none;
+   border: 1px solid red;
+}
+    
+
+#preview{
+    color: white;
+    background-color: rgb(212, 165, 11);
+    margin-left: 25px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 550;
+    border-radius: 5%;
+}
+
+main{
+    text-align: center;
+    
+    background-image: url("https://st.depositphotos.com/1679906/3102/v/380/depositphotos_31021747-stock-illustration-abstract-vector-background-for-use.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+
+.mh{
+        width: 60%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 60px;
+    transition: font-size 0.5s;
+}
+
+.mh:hover{
+    font-size: 26px;
+    font-weight: 800;
+    color: red;
+}
+
+.mc{
+    
+    width: 35%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: font-size 0.5s;
+}
+
+.mc:hover{
+    font-size: 21px;
+    font-weight: 550;
+    color: rgba(250, 184, 1, 0.774);
+}
+
+.md{
+    
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    margin-top: 30px;
+}
+
+.db{
+    border: 4px solid white;
+    background: none;
+    width: 30%;
+    padding: 15px;
+    border-radius: 5%;
+    color: white;
+    transition: font-size 0.5s;
+}
+
+.db:hover{
+    border-color: rgb(235, 219, 2);
+    font-size: 15px;
+}
+
+footer{
+     font-size: 35px;
+     color: blue;
+     width: 60%;
+     margin: auto;
+     font-weight: 530;
+     padding-top: 30px;
+     text-align: center;
+     transition: font-size 0.5s;
+}
+
+footer:hover{
+    font-size: 36px;
+    color: rgb(77, 7, 143);
+}
+
+.navlist1:hover{
+               color: tomato;
+               font-size: larger;
+}
+
+#preview:hover{  
+    background-color: tomato;
+    font-size: 14px;         
+
+    }
+

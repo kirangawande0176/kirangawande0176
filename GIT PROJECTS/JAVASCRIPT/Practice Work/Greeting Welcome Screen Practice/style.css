@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+   
+}
+
+body{
+    
+    background-color: #000000;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  
+    
+}
+
+.cardbox{
+    width: 20px;
+ 
+    margin: auto;
+   
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    color: rgb(201, 31, 2);
+    font-size: 25px;
+    background-color: antiquewhite;
+    text-shadow: 1px 1px #000000;
+    
+    text-wrap: wrap;
+
+}
+
+.sub-text{
+   
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 1px 1px #000000;
+}
+
+
+
+#heading{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px #000000;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(237, 253, 7);
+    text-shadow: 2px 2px #000000;
+}
+
+#heading:hover{
+    animation: shake 0.5s;
+
+  
+  animation-iteration-count: infinite;
+}
+
+button{
+    background-color: rgb(89, 89, 231);
+    border: 2px solid chartreuse;
+}
+
+button:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
